@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <title>{{page.title}} | {{site.name}}</title>
+    
+    {% seo %}
+    
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
+    
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    {% include tracking-header.html %}
+    
+</head>
+    
+<body style="background-image: radial-gradient(rgba(54, 73, 116, 52%) 1px,transparent 1px);background-size: 2rem 2rem;background-attachment: fixed;min-width: 280px;margin-bottom: 0 !important;">
+    <!--unavbar-->
+    <nav class="unavbar navbar-light fixed-top" style="width: 100%;">
+        <div style="padding-right: 19px; padding-left:19px; background: transparent;">
+  <div class="bottomnavbar-nav categories" style="width: 100%; background: black; display: flex; flex-wrap: nowrap; flex-direction: row; justify-content: space-between; padding-left: 19px; padding-right: 19px;">
+    <div class="bimg-text-containe" style=" align-items: center; display: flex;">            
+      <a class="navbar-brand font-weight-bolder mr-3" href="{{site.baseurl}}/index.html"><img style="background-color: white" src="{{site.baseurl}}/{{site.logo}}"></a>  		
+    </div>
+     <div style="display: flex">
+     <div class="bimg-text-containe" style=" align-items: center; display: flex;">            
+      {% include search-lunr.html %}    		
+     </div>
+     <div class="bimg-text-containe" style=" align-items: center; display: flex;">            
+      <a class="nav-link" href="{{site.baseurl}}/about.html">
+          <div class="bimg-text-container">
+          <div><i class="bi bi-gear-wide" style="color: white; font-size: 15px;"></i></div>
+          <div class="bottomNavbarNames" style="font-size: 12px; color: white">SisiNi</div>
+          </div>  
+      </a>		
+     </div>
+  </div>   
+            </div>
+</nav>
+    
+   
+       <!--<div>
+           <ul class="navbar-nav categories">
+{%comment%}
+    {% assign categories_list = site.categories %}
+      {% if categories_list.first[0] == null %}
+        {% for category in categories_list %}
+          <li class="nav-item"><a class="nav-linki" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }} ({{ site.tags[category].size }})</a></li>
+        {% endfor %}
+      {% else %}
+        {% for category in categories_list %}
+          <li class="nav-item"><a class="nav-linki" href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}">{{ category[0] }} ({{ category[1].size }})</a></li>
+        {% endfor %}
+      {% endif %}
+    {% assign categories_list = nil %}
+{%endcomment%}
+    </ul>    
+       </div>-->
+    
+     <!--A bar for Navigation-->
+    <nav class="bnavbar navbar-light fixed-bottom" style="width: 100%; background-color: black;">
+    <div style="width: 100%;">
+      <div class="bottomnavbar-nav categories" style="width: 100%; display: flex; flex-wrap: nowrap; flex-direction: row; justify-content: space-between;">
+       <li class="nav-item" >
+          <a class="bnav-link" href="#Duka" style="color: white">
+              <div class="bimg-text-container" style="background: #16322e; border-radius: 5px; padding: 0 0.3rem;">
+              <div><i class="bi bi-shop"></i></div>
+              <div class="bottomNavbarNames" style="font-size: 12px;">Dukani</div>
+              </div>
+          </a>
+       </li>
+       <li class="nav-item">
+         <a class="bnav-link" href="{{site.baseurl}}/index.html" style="color: white">
+              <div class="bimg-text-container"  style="background: #16322e; border-radius: 5px; padding: 0 0.3rem;">
+              <div><i class="bi bi-house"></i></div>
+              <div class="bottomNavbarNames" style="font-size: 12px;">home</div>
+              </div>
+          </a>
+         
+       </li>
+       <li class="nav-item" >
+            <a class="bnav-link" href="https://wa.me/255743236694" style="color: white">
+              <div class="bimg-text-container" style="background: #16322e; border-radius: 5px; padding: 0 0.3rem;">
+              <div><i class="bi bi-whatsapp"></i></div>
+              <div class="bottomNavbarNames" style="font-size: 12px;">ChatiNasi</div>
+              </div>
+          </a>
+              <!--This line is dangerous, I have to find out-->                                      
+             <a class="nav-link" href="{{site.baseurl}}/contact.html"></a>                                          
+       </li>
+     </div>                               
+   </div>
+ </nav>
+        
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
+    </div>
+    
+      
+    <main role="main" style="padding-top: 0.8rem;">        
+        {{ content }}        
+    </main>
+    
+    <footer class="footer pt-5 pb-5 text-center">        
+    <div class="container">        
+          <div class="socials-media">    
+            <ul class="list-unstyled">
+              {% include footer-social.html %}
+            </ul>    
+          </div>
+          {% include footer-copyright.html %}
+        </div>
+    </footer>
+    
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    
+    
+    <script src="{{site.baseurl}}/assets/js/theme.js"></script>
+    
+     
+    <script src="{{site.baseurl}}/assets/js/lunr.js"></script>
+     
+    
+    {% include tracking-footer.html %}
+    
+</body>
+    
+</html>
