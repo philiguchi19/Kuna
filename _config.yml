@@ -1,0 +1,47 @@
+# Site
+name: 'KunaNamna'
+description: 'Karibu Kunanamna.'
+logo: 'assets/images/thisLoooogo.png'
+favicon: 'assets/images/favSart.png'
+url: 'https://Jmosi11.github.io'
+baseurl: 
+avatar: 'assets/images/sal.jpg'
+disqus: 'Kunanamna'
+email: ''
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+ 
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+      
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
