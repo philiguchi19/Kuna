@@ -1,12 +1,17 @@
-Karibu kwenye tovuti yetu! Sisi ni kampuni ya kitaalamu ya kubuni tovuti ambayo inajikita katika kujenga tovuti za kipekee kwa biashara ndogo. Ikiwa wewe ni mmiliki wa biashara ndogo, labda unajiuliza kwa nini unahitaji tovuti. Katika ukurasa huu, tutaelezea kwa nini kuwa na tovuti ni muhimu kwa mafanikio ya biashara yako.
+---
+title: "Kuhusu sisi"
+permalink: "/Webstore.html"
+image: ""
+---
+**Kwanini tovuti ya biashara?**
 
-Kuanzisha uwepo wa mtandaoni
+Kuongeza uwepo wa mtandaoni
 Katika enzi ya kidijitali ya leo, kuwa na uwepo wa mtandaoni ni lazima kwa biashara yoyote. Kuwa na tovuti inaruhusu wateja wanaoweza kupata huduma zako kwenye mtandao na kujifunza kuhusu bidhaa au huduma zako. Bila tovuti, biashara yako inaweza kupita bila kugunduliwa na wateja wanaowezekana ambao wanatafuta biashara kama yako mtandaoni.
 
 Kujenga uaminifu
 Kuwa na tovuti inayoonekana kitaalamu husaidia kujenga uaminifu kwa biashara yako. Inaonyesha kuwa wewe ni biashara halali na inawapa wateja wanaoweza hisia ya uaminifu kwa bidhaa au huduma zako. Tovuti iliyoundwa vizuri pia inaweza kuonyesha utaalam wako na ujuzi wa tasnia, kujenga uaminifu na uaminifu zaidi kwa hadhira yako.
 
-Kuongeza kufikia
+Kuongeza kufikiwa
 Kuwa na tovuti pia inakuruhusu kufikia hadhira kubwa zaidi nje ya eneo lako la kimwili. Hii ni muhimu hasa kwa biashara ndogo ambazo zinategemea wateja wa ndani. Kwa kuwa na tovuti, unaweza kuvutia wateja kutoka maeneo tofauti na kuongeza msingi wako wa wateja.
 
 Kuboresha Huduma kwa Wateja
