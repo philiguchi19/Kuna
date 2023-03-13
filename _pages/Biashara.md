@@ -1,5 +1,5 @@
 ---
-title: "Kuhusu sisi"
+title: "Biashara"
 permalink: "/ Biashara.html"
 image: ""
 ---
