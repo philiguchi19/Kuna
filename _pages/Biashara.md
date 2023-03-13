@@ -1,6 +1,6 @@
 ---
 title: "Biashara"
-permalink: "/ Biashara.html"
+permalink: "/Biashara.html"
 image: ""
 ---
 **Kwanini tovuti ya biashara?**
