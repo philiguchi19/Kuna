@@ -1,6 +1,6 @@
 ---
 title: "Kuhusu sisi"
-permalink: "/Webstore.html"
+permalink: "/ Biashara.html"
 image: ""
 ---
 **Kwanini tovuti ya biashara?**
